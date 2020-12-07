@@ -1,0 +1,124 @@
+
+/*
+Theme Name: Simple Theme
+Theme URI: https://wordpress.org/themes/twentytwenty/
+Author: Sazid mahmud
+Author URI: https://www.facebook.com/sazidmahmud36/
+Description: Our default theme for 2020 is designed to take full advantage of the flexibility of the block editor.
+Tags: blog, one-column, custom-background, custom-colors, custom-logo, custom-menu, editor-style, featured-images, footer-widgets, full-width-template, rtl-language-support, sticky-post, theme-options
+Version: 1
+Requires at least: 5.0
+Tested up to: 5.4
+Requires PHP: 7.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: twentytwenty
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+body{
+  font-family: arial;
+  font-size: 15px;
+  color: #333;
+  background: #f4f4f4;
+  margin: 0;
+  padding: 0;
+  line-height: 1.7em;
+}
+a{
+  /* background: #393939; */
+  color: #393939;
+  padding: 10 px;
+  text-align: center;
+}
+header{
+  background: #393939;
+  color: #fff;
+  padding: 20px 10px;
+}
+header h1{
+  color: #fff;
+  margin: 0;
+  padding: 0;
+  padding-bottom: 10px;
+}
+.container{
+  width:1020px;
+  margin: 0 auto;
+  overflow: auto;
+}
+.clr{
+  clear: both;
+}
+.main{
+  margin: 15px 0;
+  float: left;
+  width: 68%;
+}
+.sidebar{
+  float: right;
+  width: 28%;
+}
+footer{
+  background: #393939;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+}
+article .post{
+  border-bottom: 1px solid #ccc;
+  overflow: hidden;
+  padding-bottom: 20px;
+}
+article.post a.button{
+  background: #333;
+  color: white;
+  padding: 10px 5px;
+  margin-bottom: 10px;
+  display: inline-block;
+  text-decoration: none;
+}
+.meta{
+  background: #333;
+  color: white;
+  padding: 5px;
+}
+.meta a{
+  color: #fff;
+  text-decoration: none;
+}
+.post-thumbnail img{
+  width: 100%;
+  height: auto;
+}
+.main-nav{
+  background: #000;
+  color: #FFF;
+  padding: 5px;
+}
+.main-nav ul{
+  margin: 0;
+  padding: 0;
+}
+.main-nav li{
+  list-style: none;
+  float: left;
+  padding-right: 15px;
+}
+.main-nav a{
+  color: #FFF;
+  text-decoration: none;
+}
+.side-widget{
+  border: 1px solid #ccc;
+  padding: 10px 10px;
+  margin-bottom: 20px;
+}
+.side-widget li{
+  list-style: none;
+  line-height: 2.2em;
+  border-bottom: 1px dotter #ccc;
+}
+.side-widget a{
+  text-decoration: none;
+}
